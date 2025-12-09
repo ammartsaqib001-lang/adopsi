@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adopsi Hewan - Kota Bersih</title>
+  <link rel="stylesheet" href="adopsii.css">
+</head>
+<body>
+ 
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#hewan">Hewan</a></li>
+        <li><a href="#cara">Cara Adopsi</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Selamat Datang di Adopsi Hewan Liar</h1>
+    <p>Bantu hewan-hewan menemukan rumah penuh kasih </p>
+  </section>
+
+ 
+  <section id="tentang">
+    <h2>Tentang Kami</h2>
+    <p>Program ini bertujuan membantu hewan-hewan liar mendapatkan tempat tinggal yang layak
+       melalui sistem adopsi yang mudah dan aman. Kami percaya setiap hewan berhak untuk disayangi </p>
+  </section>
+
+
+  <section id="hewan" class="hewan">
+    <h2>Hewan yang Siap Diadopsi</h2>
+    <div class="hewan-container">
+      <div class="card">
+        <img src="https://png.pngtree.com/png-vector/20250111/ourmid/pngtree-golden-retriever-dog-pictures-png-image_15147078.png" alt="Anjing">
+        <h3>Rocky</h3>
+        <p>Anjing jantan, ceria dan suka bermain.</p>
+        <button onclick="alert('Kamu memilih untuk mengadopsi Rocky ')">Adopsi</button>
+      </div>
+
+      <div class="card">
+        <img src="https://png.pngtree.com/png-vector/20241228/ourmid/pngtree-cute-cat-image-png-image_14938303.png" alt="Kucing">
+        <h3>Neko</h3>
+        <p>Kucing betina, lembut dan penyayang.</p>
+        <button onclick="alert('Kamu memilih untuk mengadopsi Neko ')">Adopsi</button>
+      </div>
+
+      <div class="card">
+        <img src="https://png.pngtree.com/thumb_back/fh260/background/20210903/pngtree-live-shots-of-rabbits-in-the-wild-during-the-day-image_800715.jpg" alt="Kelinci">
+        <h3>Lili</h3>
+        <p>Kelinci kecil yang aktif dan lucu.</p>
+        <button onclick="alert('Kamu memilih untuk mengadopsi Lili ')">Adopsi</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="cara">
+    <h2>Cara Adopsi</h2>
+    <ol style="text-align:left; display:inline-block;">
+      <li>Pilih hewan yang ingin di adopsi.</li>
+      <li>Isi formulir adopsi dengan lengkap.</li>
+      <li>Tunggu konfirmasi dari pihak kami.</li>
+      <li>Ambil hewan di tempat penampungan atau kami antar ke rumahmu.</li>
+    </ol>
+  </section>
+
+  <section id="kontak">
+    <h2>Hubungi Kami</h2>
+    <form onsubmit="alert('Pesan kamu telah dikirim! Terima kasih '); return false;">
+      <input type="text" placeholder="Nama Anda" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Pesan Anda" required></textarea>
+      <input type="number" name="telp" id="telp" placeholder="No.Telp Anda">
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Adopsi Hewan </p>
+  </footer>
+</body>
+</html>
